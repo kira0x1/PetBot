@@ -1,0 +1,16 @@
+{
+  "name": "TSPet",
+  "version": "1.0.0",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "discord.js": "^11.5.1",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2"
+  }
+}

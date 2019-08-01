@@ -86,3 +86,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+ecosystem.config.js
+package-lock.json
+dist/
+src/util/config.json
