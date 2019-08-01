@@ -1,9 +1,10 @@
 import { ICommand } from "../interfaces/ICommand";
 
-const greet: ICommand = {
+const command: ICommand = {
   name: "greet",
   description: "",
   usage: "",
+  aliases: [],
   guildOnly: true,
   args: false,
   cooldown: 3,
@@ -15,4 +16,4 @@ const greet: ICommand = {
   }
 };
 
-export { greet };
+module.exports = { command };

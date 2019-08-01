@@ -3,6 +3,7 @@ export interface ICommand {
   name: string;
   description: string;
   usage: string;
+  aliases: Array<string>;
   args: boolean;
   guildOnly: boolean;
   cooldown: number;
